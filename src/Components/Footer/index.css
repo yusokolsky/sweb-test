@@ -1,0 +1,24 @@
+@import "../../utils/global_variables.css";
+
+.footer {
+    height: 13.3%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.footer-copyright {
+    margin: 25px;
+    font-size: 2vh;
+}
+
+.footer-blue_color {
+    color: var(--blue);
+}
+
+.footer-contacts {
+    margin: 25px;
+    font-size: 2vh;
+}

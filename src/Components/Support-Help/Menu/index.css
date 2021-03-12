@@ -1,0 +1,75 @@
+@import "../../../utils/global_variables.css";
+
+.menu {
+    width: 19%;
+    background-color: var(--cyanblue);
+    height: 86.7%;
+    color: var(--white);
+    position: fixed;
+}
+
+.svg_logo {
+    transform: scale(1.6);
+    padding-top: 30px;
+    margin-left: 29%;
+}
+.account_logo {
+    transform: scale(2);
+    padding-left: 7%;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.vps_logo {
+    transform: scale(2);
+    padding-left: 7%;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.domains_logo {
+    transform: scale(2);
+    padding-left: 7%;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.logbook_logo {
+    transform: scale(2);
+    padding-left: 7%;
+    display: inline-block;
+    margin-right: 35px;
+}
+.menu-list {
+    margin-top: 90px;
+    display: inline-block;
+    width: 100%;
+}
+
+.menu-list-item {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Proxima Nova Cn Lt', serif;
+    font-weight: bold;
+    height: 55px;
+    padding-top: 20px;
+}
+
+.menu-list-item-active {
+    background-color: var(--softblue);
+}
+
+.menu-list-item-active:before {
+    content: "";
+    position: absolute;
+    background: var(--blue);
+    height: 73px;
+    margin-top: -19px;
+    width: 8px;
+}
+
+.menu-list-item:hover {
+    cursor: pointer;
+    background-color: var(--softblue);
+}

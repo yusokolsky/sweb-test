@@ -1,0 +1,1 @@
+export const TABS_LIST = ["account", "vps", "domains", "logbook"];
